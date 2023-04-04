@@ -70,3 +70,18 @@ footer .icons-container{
 footer .icons-container span{
     color:black
 }
+
+/* Para la tabla (BLOG) */
+.tabla td{
+    padding: 10px;
+}
+.tabla h3{
+    font-size: 18px; font-weight: bold;
+}
+.tabla p{
+    font-size: 14px;
+}
+.limitadorImg{
+    width: 250px;
+    height: 200px;
+}
