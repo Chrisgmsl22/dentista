@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Oswald:wght@600&family=Rubik+Iso&display=swap" rel='); /*Títulos*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Rubik+Iso&display=swap'); /*Cuerpo*/
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap'); /*Títulos*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap'); /*Cuerpo*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap'); /*Links*/
 
 body{
     background-color: #f6f4f3;
-    font-family: 'Montserrat:ital,wght@1,200&family=Oswald:wght@600&family=Rubik+Iso&display';
+    font-family: Cormorant Garamond;
     
 }
 
 * h1{
-    font-family: 'Montserrat:ital,wght@1,200&family=Rubik+Iso&display';
+    font-family: Alkatra;
 }
 
 a{
@@ -16,6 +17,7 @@ a{
     cursor: pointer;
     text-decoration: none;
     color: black;
+    font-family: Kani;
 }
 
 header{
