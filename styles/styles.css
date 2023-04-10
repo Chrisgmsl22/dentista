@@ -20,6 +20,13 @@ a{
     font-family: Kani;
 }
 
+nav .navegacion-container a:hover{
+    color: brown;
+    font-size: 1.2rem;
+}
+
+
+
 header{
     display: flex;
     margin: 50px;
@@ -87,6 +94,46 @@ footer .icons-container{
 footer .icons-container span{
     color:black
 }
+
+/*Para lo del inicio*/
+
+.inicio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.imgSlogan-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+}
+
+.imgSlogan-container img{
+    height: 300px;
+    width: 900px;
+}
+
+.inicio-container .imgSlogan-container{
+    position: relative;
+}
+
+.inicio-container .textoA{
+    position: absolute;
+    top: 70%; /* Centrar el texto verticalmente */
+    left: 35%; /* Centrar el texto horizontalmente */
+    transform: translate(-50%, -50%); /* Centrar el texto con transformaciones */
+    z-index: 1; /* Establecer el índice z para que el texto se superponga a la imagen */
+    color: black; /* Establecer color del texto */
+    font-size: 1.3rem; /* Establecer tamaño de fuente del texto */
+    text-align: start; /* Centrar el texto horizontalmente */
+    color: white;
+}
+
+
 
 /* Para la tabla (BLOG) */
 .tabla td{
