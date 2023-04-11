@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap'); /*Títulos*/
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap'); /*Cuerpo*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap'); /*Links*/
 
 body{
@@ -133,7 +134,63 @@ footer .icons-container span{
     color: white;
 }
 
+.especialidades-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: auto;
+    border-top: 2px solid black;
+    margin-top: -10px;
+}
 
+.especialidad-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    margin: 15px;
+}
+
+.especialidad-container button{
+    border-radius: 8px;
+    background-color: #D1C8C1;
+    border: none;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+}
+
+.imgEsp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+
+.imgEsp-container img{
+    height: 90%;
+    width: 90%;
+}
+
+.descipcion-container{
+    display: flex;
+    text-align: start;
+    align-items: center;
+    width: 55%;
+    font-family: Cormorant Garamond;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.descipcion-container h2{
+    font-family: Raleway;
+}
 
 /* Para la tabla (BLOG) */
 .tabla td{
