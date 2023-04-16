@@ -112,7 +112,7 @@ main{
 
 footer .icons-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -130,7 +130,7 @@ footer .icons-container span{
 .contenedor-especialidades{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 80rem;
+    width: 100%;
     margin: 0 auto;
 }
 .contenedor-inicio{
